@@ -1,5 +1,5 @@
-public class PizzaDecorator implements Pizza {
-    private final Pizza pizza;
+abstract class PizzaDecorator implements Pizza {
+    protected Pizza pizza;
 
     public PizzaDecorator(Pizza pizza) {
         this.pizza = pizza;
